@@ -14,10 +14,10 @@ public class EstruturaSwitch {
 		//Aqui precisamos de uma estrutura para validar a opção inserida. 
 		switch(opcao) { 
 		case 1: 
-			System.out.println("Os seus ifs me emocionam");
+			System.out.println("Você é um profissional formidável!");
 			break; 
 		case 2:  
-			System.out.println("Seus olhos são lindo"); 
+			System.out.println("Seus olhos são lindo!"); 
 			break; 
 		case 3: 
 			System.out.println("Você é um pessoa mais solidaria que conheço!"); 
