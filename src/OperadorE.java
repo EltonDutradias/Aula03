@@ -11,7 +11,12 @@ public class OperadorE {
 		usuario = leitor.next();
 		System.out.println("Por favor, digite sua senha:");
 		senha = leitor.next();	
-		//Aqui é preciso criar um if que verifique as duas condições para o login ser bem sucedido
+		//Aqui é preciso criar um if que verifique as duas condições para o login ser bem sucedido 
+		if(usuario.equalsIgnoreCase("Administrador") && senha.equals("123")) { 
+			System.out.println("Você é um administrador com acesso ao sistema!");			
+		}else { 
+			System.out.println("Usuário ou senha incorretos");
+		}
 		
 		
 		
