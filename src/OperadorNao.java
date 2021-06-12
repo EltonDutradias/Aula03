@@ -7,9 +7,12 @@ public class OperadorNao {
 		Scanner leitor = new Scanner(System.in);
 		String tipoUsuario;
 		System.out.println("Por favor, digite seu tipo de usuário:");
-		tipoUsuario = leitor.next();
+		tipoUsuario = leitor.next(); 
 		
-		//Aqui é preciso criar um if que verifique se o tipo de usuário digitado é DIFERENTE de "administrador"
+	//Aqui é preciso criar um if que verifique se o tipo de usuário digitado é DIFERENTE de "administrador" 
+		if(!tipoUsuario.equalsIgnoreCase("administrador")) { 
+			System.out.println("Atenção usuário sem poderes administrativos. Algumas tarefas serão bloqueadas");
+		}
 		
 		leitor.close();
 		
