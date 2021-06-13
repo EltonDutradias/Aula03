@@ -19,7 +19,7 @@ public class ExercicioTriangulo {
 		if(ladoa == ladob && ladoa == ladoc) { 
 			System.out.println("O triângulo é equilatero");
 		}else if (ladoa != ladob && ladoa != ladoc && ladob != ladoc) { 
-			System.out.println("")
+			System.out.println("");
 		}
 		}else {
 		System.out.println("O triângulo não existe");
